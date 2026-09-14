@@ -26,6 +26,6 @@ if __name__ == '__main__':
     for d in path: 
         print(f'spf to {d}: {path[d]}')
 
-    print("Running A* Implemented...")
-    res = sp.astar((9,9), (19,19), 'c')
-    print(res)
+    print("\nRunning A* Implementation...")
+    res = sp.astar((7,8), (16,11), 'c', 100)
+    print("\n————— Path ——————\n", sp.format_astar_path(res))
