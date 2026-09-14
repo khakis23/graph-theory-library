@@ -1,7 +1,5 @@
 import sys
-# replace the following line with:
-# from graph_user_id import sp
-import sp
+from graphs_tblack3250 import sp
 
 if __name__ == '__main__':
     
@@ -27,3 +25,7 @@ if __name__ == '__main__':
     print(dist)
     for d in path: 
         print(f'spf to {d}: {path[d]}')
+
+    print("Running A* Implemented...")
+    res = sp.astar((9,9), (19,19), 'c')
+    print(res)
