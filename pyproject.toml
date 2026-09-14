@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0", "pybind11>=2.12"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphs_tblack3250"
+version = "0.1.0"
+description = "Graph algorithms with C++ accelerated A* pathfinding"
+readme = "README.md"
+requires-python = ">=3.9"
