@@ -65,3 +65,10 @@ coverage.xml
 *.ipr
 cmake-build-*/
 
+# Compiled C/C++ binaries and extensions
+*.so
+*.dylib
+*.pyd
+*.o
+*.obj
+*.a
